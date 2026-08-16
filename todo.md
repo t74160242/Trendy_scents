@@ -1,5 +1,6 @@
-# Family Card Spacing Checklist
+# GitHub Export Checklist
 
-- [ ] Increase the gap between the description and “Explore family” link.
-- [ ] Verify desktop and mobile card layout.
-- [ ] Save and deliver the refinement.
+- [ ] Confirm the GitHub connector is enabled.
+- [ ] Confirm the repository owner and name: `Trend_scents`.
+- [ ] Export the current storefront to the repository.
+- [ ] Verify the export result and report the repository link.
