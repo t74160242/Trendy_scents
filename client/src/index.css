@@ -115,3 +115,8 @@ h2 { font-size: clamp(55px, 6vw, 90px); }
 .price-section[data-reveal="section"] { transform: translateY(26px); }
 @media (max-width: 800px) { [data-reveal="group"].is-visible .family-card:nth-child(2), [data-reveal="group"].is-visible .family-card:nth-child(3) { transform: translateY(0); }.product-row:hover, .product-row:focus-within { padding-left: 5px; padding-right: 5px; } }
 @media (prefers-reduced-motion: reduce) { [data-reveal], [data-reveal] .family-card, [data-reveal="product"] { opacity: 1 !important; transform: none !important; transition: none !important; }.product-row:hover, .product-row:focus-within { padding-left: 0; padding-right: 0; }.product-feature:hover img { transform: none; filter: none; } }
+
+/* Sunlit Atelier spacing refinement: let each family description breathe before its action link. */
+.family-card p { margin-bottom: 1.35rem; }
+.family-link { display: inline-flex; margin-top: 0.2rem; }
+@media (max-width: 800px) { .family-card p { margin-bottom: 1.1rem; } }
