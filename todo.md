@@ -1,6 +1,7 @@
-# API Integration Removal Checklist
+# Motion Refinement Checklist
 
-- [ ] Confirm whether a user-created API connector exists.
-- [ ] Remove only the confirmed API-key integration.
-- [ ] Verify the storefront source remains unchanged and functional.
-- [ ] Report the result clearly.
+- [x] Add viewport-aware reveal animations for major storefront sections.
+- [x] Add elegant product-row hover and focus effects that preserve readability.
+- [x] Add smooth scroll behavior and respect `prefers-reduced-motion`.
+- [x] Verify desktop and mobile rendering plus production build.
+- [ ] Save a checkpoint and deliver the update.
